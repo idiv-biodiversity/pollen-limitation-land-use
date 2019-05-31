@@ -2,7 +2,7 @@
 
 This repository contains the R scripts and data used for performing the analysis in:
 
-> Bennett, J.M., J. A. Steets, J. H. Burns, L. A. Burkle, J. C. Vamosi, M. Wolowski, G. Arceo-Gómez, M. Burd1, W. Durka, A. G. Ellis, L. Freitas, J. Li, J. G. Rodger, V. Stefan, J. Xia, T. M. Knight, and T-L. Ashman. Land use and pollinator dependency drives global patterns of pollen limitation in the9
+> Bennett, J.M., J. A. Steets, J. H. Burns, L. A. Burkle, J. C. Vamosi, M. Wolowski, G. Arceo-Gómez, M. Burd1, W. Durka, A. G. Ellis, L. Freitas, J. Li, J. G. Rodger, V. Stefan, J. Xia, T. M. Knight, and T-L. Ashman. Land use and pollinator dependency drives global patterns of pollen limitation in the Anthropocene.
 
 # How to use this repository
 
