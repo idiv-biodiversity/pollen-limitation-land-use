@@ -1,0 +1,19 @@
+coef_name,coef_name_manuscript
+pdAF_x_luhLUH.managed,Managed: Autofertile
+pdPD_x_luhLUH.managed,Managed: Pollinator dependent
+pdAF_x_luhLUH.urban,Urban: Autofertile
+pdPD_x_luhLUH.urban,Urban: Pollinator dependent
+pdAF_x_luhLUH.veget,Natural: Autofertile
+pdPD_x_luhLUH.veget,Natural: Pollinator dependent
+eco_specf_x_luhLUH.managed,Managed: Few
+eco_specm_x_luhLUH.managed,Managed: Many
+eco_speco_x_luhLUH.managed,Managed: One
+eco_specf_x_luhLUH.veget,Natural: Few
+eco_specm_x_luhLUH.veget,Natural: Many
+eco_speco_x_luhLUH.veget,Natural: One
+fun_specbee_specialized_x_luhLUH.managed,Managed: exclusively bee
+fun_specgeneralist_x_luhLUH.managed,Managed: multiple functional groups
+fun_specother_specialized_x_luhLUH.managed,Managed: exclusively other
+fun_specbee_specialized_x_luhLUH.veget,Natural: exclusively bee
+fun_specgeneralist_x_luhLUH.veget,Natural: multiple functional groups
+fun_specother_specialized_x_luhLUH.veget,Natural: exclusively other
