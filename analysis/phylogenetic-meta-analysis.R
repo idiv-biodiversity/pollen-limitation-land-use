@@ -65,13 +65,6 @@ LUH.eco.lnr <- rma.mv(es ~ eco_spec:luh - 1,
                       knha = TRUE,
                       method = "ML")
 
-summary(glht(LUH.eco.lnr,
-             linfct = rbind(c(1, 0, 0, -1, 0, 0),
-                            c(0, 1, 0, 0, -1, 0),
-                            c(0, 0, 1, 0, 0, -1)),
-             df = df.residual(LUH.eco.lnr)),
-        test = adjusted("holm"))
-
 
 # Land-use x functional specialisation ------------------------------------
 
