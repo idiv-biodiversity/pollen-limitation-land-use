@@ -13,7 +13,7 @@
 ## Requested 1 h of running time per CPU, but the models should take approx. 
 ## 30 min per CPU.
 
-module load R/3.5.1-1
+module load foss/2018b R/3.6.0
 
 data_path=$1
 output=/work/$USER/$JOB_NAME-$JOB_ID
