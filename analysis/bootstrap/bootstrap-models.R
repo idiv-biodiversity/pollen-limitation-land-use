@@ -40,6 +40,10 @@ output    <- cli$args[2]
 
 # The R-job section -------------------------------------------------------
 
+# Set option for Random Number Generation. Needed for back compatibility with
+# versions of R before 3.6.0. See https://stackoverflow.com/a/56381613/5193830
+RNGkind(sample.kind = "Rounding")
+
 library(metafor)
 library(data.table)
 

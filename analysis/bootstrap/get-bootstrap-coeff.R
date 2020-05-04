@@ -1,10 +1,15 @@
 # /////////////////////////////////////////////////////////////////////////
 #
 # Extract the bootstrap coefficients from the binary files obtained after
-# running the array job on the cluster.
+# running the array job on the cluster. It also computes the mean, standard
+# deviation, standard error and the confidence interval limits for each
+# coefficient.
 #
 # /////////////////////////////////////////////////////////////////////////
 
+# Set option for Random Number Generation. Needed for back compatibility with
+# versions of R before 3.6.0. See https://stackoverflow.com/a/56381613/5193830
+RNGkind(sample.kind = "Rounding")
 
 # Load packages
 library(data.table)
