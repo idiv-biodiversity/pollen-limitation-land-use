@@ -8,6 +8,9 @@ This repository contains the R scripts and data used for performing the analysis
 
 You can [download][1] or clone the repository then run the scripts using the `pollen-limitation-land-use.Rproj` file ([R][2] and [R Studio][3] are needed).
 
+For cloning, run:
+`git clone https://github.com/idiv-biodiversity/pollen-limitation-land-use.git`
+
 [1]: https://github.com/idiv-biodiversity/pollen-limitation-land-use/archive/master.zip
 [2]: https://www.r-project.org/
 [3]: https://www.rstudio.com/products/rstudio/download/

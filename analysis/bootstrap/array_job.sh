@@ -17,7 +17,7 @@ module load foss/2018b R/3.6.0
 
 data_path=$1
 output=/work/$USER/$JOB_NAME-$JOB_ID
-mkdir -p $output
+mkdir -p "$output"
 
 Rscript bootstrap-models.R \
   "$data_path" \
