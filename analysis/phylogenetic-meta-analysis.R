@@ -54,6 +54,17 @@ summary(glht(LUH.pd.lnr,
         test = adjusted("holm"))
 
 
+dt$id <- 1:nrow(dt)
+LUH.pd.lnr.2 <- rma.mv(es ~ pd + luh + pd * luh,
+                       V = var_es,
+                       random = list(~ 1|factors,
+                                     ~ 1|species,
+                                     ~ 1|id),
+                       R = list(species = vcov),
+                       data = dt,
+                       method = "ML")
+
+
 # Land-use x Ecological specialization ------------------------------------
 
 LUH.eco.lnr <- rma.mv(es ~ eco_spec:luh - 1,
@@ -64,6 +75,17 @@ LUH.eco.lnr <- rma.mv(es ~ eco_spec:luh - 1,
                       data = sub_pd_no_urban,
                       knha = TRUE,
                       method = "ML")
+
+sub_pd_no_urban$id <- 1:nrow(sub_pd_no_urban)
+LUH.eco.lnr.2 <- rma.mv(es ~ eco_spec + luh + eco_spec * luh, 
+                        V = var_es,
+                        random = list(~ 1|factors,
+                                      ~ 1|species,
+                                      ~ 1|id),
+                        R = list(species = vcov),
+                        data = sub_pd_no_urban,
+                        knha = TRUE,
+                        method = "ML")
 
 
 # Land-use x functional specialisation ------------------------------------
@@ -82,3 +104,14 @@ summary(glht(LUH.fun.lnr,
                             c(0, 0, 1, 0, 0, -1)),
              df = df.residual(LUH.fun.lnr)),
         test = adjusted("holm"))
+
+
+LUH.fun.lnr.2 <- rma.mv(es ~ luh + fun_spec + luh * fun_spec, 
+                        V = var_es,
+                        random = list(~ 1|factors,
+                                      ~ 1|species,
+                                      ~ 1|id),
+                        R = list(species = vcov),
+                        data = sub_pd_no_urban,
+                        knha = TRUE,
+                        method = "ML")
