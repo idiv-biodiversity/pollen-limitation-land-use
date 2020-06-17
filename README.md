@@ -14,3 +14,5 @@ For cloning, run:
 [1]: https://github.com/idiv-biodiversity/pollen-limitation-land-use/archive/master.zip
 [2]: https://www.r-project.org/
 [3]: https://www.rstudio.com/products/rstudio/download/
+
+For inquiries about the phylogenetic mixed effects meta-analysis, please contact the corresponding author [J. M. Bennett](joanne.bennett@canberra.edu.au).
