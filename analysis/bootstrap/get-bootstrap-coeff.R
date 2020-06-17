@@ -69,7 +69,6 @@ for (i in names(coef_lst[[1]])){
     # Stats
     cis[[j]] <- data.frame(avg = mean(cf),
                            sd = sd(cf),
-                           se = sd(cf)/sqrt(length(cf)),
                            ci_low = quant_ci[1],
                            ci_up = quant_ci[2],
                            model = i,
@@ -91,7 +90,7 @@ all_coef_dt <- merge(x = all_coef_dt,
                      y = coef_names_tbl,
                      by = "coef_name")
 setorder(all_coef_dt, model, coef_name_manuscript)
-setcolorder(all_coef_dt, neworder = c("avg", "sd", "se", "ci_low", "ci_up", 
+setcolorder(all_coef_dt, neworder = c("avg", "sd", "ci_low", "ci_up", 
                                       "model", "coef_name", "coef_name_manuscript"))
 
 write.csv(all_coef_dt,
