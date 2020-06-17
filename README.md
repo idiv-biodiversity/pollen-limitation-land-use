@@ -15,4 +15,4 @@ For cloning, run:
 [2]: https://www.r-project.org/
 [3]: https://www.rstudio.com/products/rstudio/download/
 
-For inquiries about the phylogenetic mixed effects meta-analysis, please contact the corresponding author [J. M. Bennett](joanne.bennett@canberra.edu.au).
+For inquiries about the phylogenetic mixed effects meta-analysis, please contact the corresponding author J. M. Bennett - joanne.bennett@canberra.edu.au
